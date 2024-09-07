@@ -1,0 +1,28 @@
+.table{
+    margin-right: auto;
+    margin-left: auto;
+}
+table {
+    width: 830px;
+    height: 300px;
+    table-layout: fixed;
+    border: 3px solid black;
+    border-collapse: collapse;
+ }
+table *{
+    text-align: center;
+}
+
+ td, th {
+    border: 2px solid black;
+    padding: 1px;
+ }
+ .lunch{
+    font-size: 30px;
+ }
+ h1{
+    text-align: center;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    padding: 15px 0;
+ }
