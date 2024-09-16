@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" method="POST">
+    <title>Garage.UA</title>
+</head>
+<body>
+    <h1>Garage.UA - Купівля та Продаж автомобілів</h1><br>
+    <h3>Реєстрація нового аккаунту</h3>
+    <form action="https://formsubmit.com/dudnyk1005@gmail.com" method="post">
+        <label for="username">Данні Користувача:</label><br>
+        <input type="name" id="username" name="username" placeholder="Імя та Прізвище" pattern="[A-Za-z0-9]+" title="Тільки букви латинського формату або цифри " ><br><br>
+        <label for="telephone">Номер телефону</label><br>
+        <input type="tel" id="telephone"  placeholder="Номер телефону"><br><br>     
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" placeholder="Новий пароль"><br>
+        <button type="submit">Отправить</button>
+    </form><br><br>
+    <h2>Форма подачі оголошення</h2><br>
+    <form action="https://formsubmit.com/dudnyk1005@gmail.com" method="post">
+        <label for="transimision">Оберіть тип коробки передач:</label><br>
+    <select name="transimisions" id="transimision">
+        <option value="automatic">Автоматична</option>
+        <option value="manual">Механічна</option>
+    </select>
+    <br><br><label for="mileage_car">Пробіг автомобіля:</label><br>
+        <input type="number" id="mileage_car"><br><br>
+        <label for="condition">Стан:</label><br>
+        <input type="checkbox" value="new" name="new" id="condition"> Новий<br>
+        <input type="checkbox" value="was_used" name="was used" id="condition"> Був у використанні<br>
+        <input type="checkbox" value="crashed" name="crashed" id="condition"> Був у ДТП<br><br>
+        <label for="date">Дата випуску:</label><br>
+        <input type="date" value="date" name="date" id="date"><br><br>
+        <label for="color">Колір:</label><br>
+        <input type="color" value="color" name="color" id="color"><br><br>
+    <label for="fuel">Вид палива:</label><br>
+    <select name="type_fuel" id="fuel">
+        <option value="gas">Газ</option>
+        <option value="gas_gasoline">Газ-Бензин</option>
+        <option value="gasoline">Бензин</option>
+        <option value="diesel">Дизель</option>
+        <option value="electric">Електрична</option>
+    </select><br><br>
+    <label for="coments">Опис автомобіля:</label><br>
+    <textarea name="coments" id="coments" placeholder="Опис:"></textarea><br>
+    <button type="submit">Отправить</button>
+    </form>
+    
+</body>
+</html>
